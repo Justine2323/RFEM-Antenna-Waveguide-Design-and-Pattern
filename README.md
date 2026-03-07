@@ -110,6 +110,8 @@ The dipole length is based on half of the wavelength.
 </p>
 Where c = 3 × 10⁸ m/s and f is the operating frequency.
 
+---
+
 <p align="center">
   <img width="726" height="449" alt="image" src="https://github.com/user-attachments/assets/670c32ab-7b0c-4b9c-874d-95813d985aef" />
 </p>
@@ -228,11 +230,115 @@ The radiation pattern of this antenna is bi-directional and perpendicular to the
 </p>
 
 <p align="center">
-  <img width="727" height="567" alt="image" src="https://github.com/user-attachments/assets/4ef2eef1-bcce-484b-82cc-f3295d25c544" />
+  <img width="726" height="567" alt="image" src="https://github.com/user-attachments/assets/4ef2eef1-bcce-484b-82cc-f3295d25c544" />
 </p>
 
 <p align="center">
-    <em> Figure 1.3.3: Broad-Side Array Antenna in PCB form.. </em>
+    <em> Figure 1.3.3: Broad-Side Array Antenna in PCB form. </em>
 </p>
+</details>
+
+### 1.4 : Loop Antenna
+<p align="justify">
+An RF current-carrying coil that is formed into a single loop can be used as an antenna known as a loop antenna. The currents flowing through this loop antenna will be in phase, creating a magnetic field that is perpendicular to the entire loop. The operating frequency range of a loop antenna is approximately 300 MHz to 3 GHz, making it effective in the UHF range.
+</p>
+
+<details>
+<summary> Press the button </summary>
   
+| Parameter | Symbol | Description |
+|-----------|--------|-------------|
+| Wavelength | λ | Distance of one electromagnetic wave cycle |
+| Frequency | f | Operating frequency |
+| Speed of Light | c | Constant value (3 × 10⁸ m/s) |
+| Circumference | C | Total length of the loop |
+| Diameter | D | Diameter of the loop antenna |
+| Radiation Resistance | Rr | Resistance due to radiation of energy |
+| Loop Area | A | Area enclosed by the loop |
+
+#### Wavelength Formula
+
+λ = c / f
+
+Where:  
+- λ = wavelength (meters)  
+- c = speed of light (3 × 10⁸ m/s)  
+- f = frequency (Hz)
+
+#### Loop Circumference
+
+C = λ
+
+For a full-wave loop antenna, the circumference is approximately equal to one wavelength.
+
+#### Loop Diameter
+
+D = C / π
+
+Where:  
+- D = loop diameter  
+- C = loop circumference
+
+#### Radiation Resistance (Small Loop)
+
+Rr = 31200 (A / λ²)²
+
+Where:  
+- Rr = radiation resistance (ohms)  
+- A = loop area  
+- λ = wavelength
+
+---
+
+<p align="center">
+  <img width="726" height="530" alt="image" src="https://github.com/user-attachments/assets/ff7fbcbb-a5ba-42f1-9c37-8b8653a9bd90" />
+</p>
+
+<p align="center">
+    <em> Figure 1.4.0: Radiation Pattern. </em>
+</p>
+
+<p align="justify">
+The radiation patterns for small, high-efficiency loop antennas are illustrated, showing how different angles of looping affect them. The tangent line at 0 degrees indicates vertical polarization, while the line at 90 degrees indicates horizontal polarization.
+</p>
+</details>
+
+### 1.5 : Slot Antenna
+<p align="justify">
+Slot antennas are typically used at frequencies ranging from 300 MHz to 24 GHz. They are popular because they can be fabricated from the surface on which they will be mounted, and they exhibit radiation patterns that are approximately omnidirectional, similar to those of linear wire antennas. The polarization of a slot antenna is linear. The size and shape of the slot, as well as the cavity behind it, provide design variables that can be adjusted to optimize performance.
+</p>
+
+<details>
+<summary> Press the button </summary>
+
+<p align="center">
+  <img width="726" height="426" alt="image" src="https://github.com/user-attachments/assets/afddd167-8f1f-4f24-8ce0-7380f8df0e59" />
+</p>
+
+<p align="center">
+    <em> Figure 1.5.0: Dual antennas - the slot antenna from the left , the dipole antenna from the right by "Antenna-Theory". </em>
+</p>
+
+<p align="justify">
+To understand slot antennas, we first need to explore Babinet's principle, which H.G. Booker adapted to antenna theory in 1946. This principle connects the radiated fields and impedance of a slot antenna to those of its dual antenna. The dual of a slot antenna can be visualized as a scenario where the conductive material and the air are swapped; in this case, the slot antenna would function as a metal slab in free space.
+</p>
+
+<p align="center">
+  <img width="726" height="454" alt="image" src="https://github.com/user-attachments/assets/46a6abf6-bb3f-48ac-a800-a18551efe495" />
+</p>
+
+<p align="center">
+    <em> Figure 1.5.1: Radiation Pattern. </em>
+</p>
+
+<p align="justify">
+The radiation pattern of a slot antenna is compared with the radiation pattern of an Abraham-Lorentz bound charge oscillator. The radiation pattern of the slot antenna is obtained using a near-to-far field transformation based on the Finite-Difference Time-Domain (FDTD) results of the near field at the slot interface. 
+
+<p align="center">
+  <img width="726" height="669" alt="image" src="https://github.com/user-attachments/assets/6c852c70-ba03-478b-88ec-cfef32759b9c" />
+</p>
+
+<p align="center">
+    <em> Figure 1.5.2: Slot Antenna in PCB form. </em>
+</p>
 </details>
