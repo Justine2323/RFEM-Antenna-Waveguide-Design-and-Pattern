@@ -344,6 +344,22 @@ The radiation pattern of a slot antenna is compared with the radiation pattern o
 </p>
 </details>
 
+### 1.6 Antenna Setup
+<details>
+<summary> Press the button </summary> 
+  
+<img width="726" height="734" alt="Image" src="https://github.com/user-attachments/assets/2be2f03f-3469-41dc-8a69-0e8137182dc2" />
+
+<img width="726" height="724" alt="Image" src="https://github.com/user-attachments/assets/3cdfe2d4-935c-4c40-a32e-01ba3b556065" />
+
+<img width="726" height="732" alt="Image" src="https://github.com/user-attachments/assets/314fef52-89aa-4d88-bc00-949726192b4d" />
+
+<img width="726" height="731" alt="Image" src="https://github.com/user-attachments/assets/99178d27-3835-4ff5-9d57-9a45e065bbbb" />
+
+<img width="726" height="741" alt="Image" src="https://github.com/user-attachments/assets/658a4788-ab30-40bd-b7c1-d6adb5c7a4fb" />
+
+</details>
+
 ## Part 2: Waveguide 
 <p align="justify">
 This section examines the principles and functioning of waveguides used for guiding electromagnetic waves, particularly in microwave and high-frequency communication systems. It explains how waveguides confine and transmit signals with minimal loss compared to conventional transmission lines at very high frequencies. The experiment focuses on waveguide structure, modes of propagation, cutoff frequency, and signal behavior within the guide. Measurements and observations are utilized to understand how waveguides facilitate efficient signal transmission in radar, satellite, and microwave communication systems.
