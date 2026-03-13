@@ -333,6 +333,7 @@ To understand slot antennas, we first need to explore Babinet's principle, which
 
 <p align="justify">
 The radiation pattern of a slot antenna is compared with the radiation pattern of an Abraham-Lorentz bound charge oscillator. The radiation pattern of the slot antenna is obtained using a near-to-far field transformation based on the Finite-Difference Time-Domain (FDTD) results of the near field at the slot interface. 
+</p>
 
 <p align="center">
   <img width="726" height="669" alt="image" src="https://github.com/user-attachments/assets/6c852c70-ba03-478b-88ec-cfef32759b9c" />
@@ -341,4 +342,27 @@ The radiation pattern of a slot antenna is compared with the radiation pattern o
 <p align="center">
     <em> Figure 1.5.2: Slot Antenna in PCB form. </em>
 </p>
+</details>
+
+## Part 2: Waveguide 
+<p align="justify">
+This section examines the principles and functioning of waveguides used for guiding electromagnetic waves, particularly in microwave and high-frequency communication systems. It explains how waveguides confine and transmit signals with minimal loss compared to conventional transmission lines at very high frequencies. The experiment focuses on waveguide structure, modes of propagation, cutoff frequency, and signal behavior within the guide. Measurements and observations are utilized to understand how waveguides facilitate efficient signal transmission in radar, satellite, and microwave communication systems.
+</p>
+
+### 2.0 Waveguide Setup
+<details>
+<summary> Press the button </summary> 
+  
+<img width="726" height="729" alt="Image" src="https://github.com/user-attachments/assets/40c24e67-1f58-49e7-b7e6-50c8a7816b1d" />
+
+<img width="726" height="726" alt="Image" src="https://github.com/user-attachments/assets/73eeceef-fde1-41e8-b36b-181647821f3e" />
+
+<img width="726" height="668" alt="Image" src="https://github.com/user-attachments/assets/ffc7009b-f06e-4dc7-b850-d579479321df" />
+
+<img width="726" height="676" alt="Image" src="https://github.com/user-attachments/assets/196a568c-98ce-42cd-8dba-f3792597720e" />
+
+<img width="726" height="673" alt="Image" src="https://github.com/user-attachments/assets/58d3388f-7a94-4064-b1b8-17ba177adc9c" />
+
+<img width="726" height="679" alt="Image" src="https://github.com/user-attachments/assets/ae06a75a-9b41-44d5-9fd2-942b7802408c" />
+
 </details>
